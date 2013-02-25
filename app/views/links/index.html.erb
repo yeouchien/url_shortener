@@ -1,0 +1,6 @@
+<h1>All short links</h1>
+<ul>
+  <% @links.each do |link| %>
+  <li><%= link_to link.short_url, root_url + link.short_url %></li>
+  <% end %>
+</ul>

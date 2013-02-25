@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  clicks: MyString
+  browsers: MyString
+  platforms: MyString
+  countries: MyString
+
+two:
+  clicks: MyString
+  browsers: MyString
+  platforms: MyString
+  countries: MyString

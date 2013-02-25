@@ -1,0 +1,10 @@
+<h1>Link Shortener</h1>
+
+<%= form_for(@link) do |l| %>
+
+<fieldset>
+  <%= l.url_field :long_url %>
+  <%= l.submit nil %>
+</fieldset>
+
+<% end %>
